@@ -33,7 +33,7 @@ def is_bitlink(headers, bitlink):
 if __name__ == '__main__':
     load_dotenv()
 
-    token = os.environ["TOKEN_FOR_BITLINKS"]
+    token = os.environ["APIBITLY_TOKEN"]
 
     parser = argparse.ArgumentParser(description='Подсчёт кликов по ссылкам и их сокращение')
     parser.add_argument('link', help='Ваша ссылка: ')
