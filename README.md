@@ -16,6 +16,10 @@ pip install -r requirements.txt
 ```
 Рекомендуется использовать [virtualenv/env](https://docs.python.org/3/library/venv.html) для изоляции проекта.
 
+### Как запустить
+
+Для запуска скрипта используйте команду `python3 main.py ВАША_ССЫЛКА`
+
 ### Цель проекта
 
 Код написан в образовательных целях на онлайн-курсе для веб-разработчиков [dvmn.org](https://dvmn.org/).
